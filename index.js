@@ -12,7 +12,7 @@ let pnt = 0;   // Default points of a new player
 //function to generate range
 function guessNum(lBnd, uBnd) {
   let rndNum = (Math.trunc((Math.random() * (uBnd - lBnd)) * 10) / 10) + lBnd; // generating a random number within the given range.
-  console.log(rndNum);
+  //console.log(rndNum);
 
 
   if (stage === 1) {
@@ -137,8 +137,8 @@ function guessNum(lBnd, uBnd) {
               
 
             }
-            console.log(playerData);
-            console.log(stage);
+            //console.log(playerData);
+            //console.log(stage);
             guessNum(lBnd, uBnd);
             
           }
